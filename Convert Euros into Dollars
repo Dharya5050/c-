@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    float Usd;
+    float euro;
+    cout<<("Enter the money in Euros ")<<endl;
+    cin>>euro;
+    Usd=0.99*euro;
+    cout<<("Money in Usd = ")<<Usd<<endl;
+    
+    return 0;
+    
+    
+    
+    
+}
